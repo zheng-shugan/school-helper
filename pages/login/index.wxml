@@ -1,0 +1,18 @@
+<view class="content">
+    <view class="header">
+        <image src="/asset/img/logo.png" mode="aspectFit" />
+    </view>
+    <view class="login">
+        <view class="form-item">
+            <image src="/asset/img/user.png" mode="aspectFit" />
+            <input type="text" model:value="{{ stuId }}" placeholder="请输入学号" />
+        </view>
+
+        <view class="form-item">
+            <image src="/asset/img/password.png" mode="aspectFit" />
+            <input type="password" model:value="{{ password }}" placeholder="请输入密码" />
+        </view>
+
+        <button bindtap="login" class="login-btn">登陆</button>
+    </view>
+</view>
